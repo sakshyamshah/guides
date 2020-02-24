@@ -156,7 +156,7 @@ GEM
       rack (>= 1.0)
     rails-assets-js-md5 (1.1.1)
     rails-assets-moment (2.10.6)
-    rake (10.4.2)
+    rake (13.0.1)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -235,7 +235,7 @@ DEPENDENCIES
   rack
   rails-assets-js-md5!
   rails-assets-moment!
-  rake
+  rake (>= 12.3.3)
   redcarpet
   rspec
   thin
@@ -244,4 +244,4 @@ DEPENDENCIES
   wdm (>= 0.1.0)
 
 BUNDLED WITH
-   1.15.4
+   1.17.3

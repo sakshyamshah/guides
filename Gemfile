@@ -4,7 +4,7 @@ gem 'middleman-spellcheck',:git => "https://github.com/mwils/middleman-spellchec
 gem "redcarpet"
 gem "activesupport", '~> 4.1.11'
 gem "highline"
-gem "rake"
+gem "rake", ">= 12.3.3"
 gem "coderay", :git => "https://github.com/dgeb/coderay.git", :branch => "handlebars"
 gem "middleman", '~> 3.0'
 gem "thin"

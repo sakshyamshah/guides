@@ -6,12 +6,12 @@ gem "activesupport", '~> 4.1.11'
 gem "highline"
 gem "rake"
 gem "coderay", :git => "https://github.com/dgeb/coderay.git", :branch => "handlebars"
-gem "middleman", '~> 3.0'
-gem "thin"
-gem "rack"
+gem "middleman", "~> 4.1", ">= 4.1.11"
+gem "thin", ">= 1.7.0"
+gem "rack", ">= 2.1.3"
 gem "listen"
 gem "builder"
-gem "middleman-alias"
+gem "middleman-alias", ">= 0.0.17"
 gem "underscore-rails"
 gem "html-proofer"
 gem "middleman-toc", :git => "https://github.com/ember-learn/middleman-toc", :branch => "master"
@@ -31,8 +31,8 @@ end
 
 group :test do
   gem "rspec"
-  gem "capybara"
-  gem "poltergeist"
+  gem "capybara", ">= 2.4.4"
+  gem "poltergeist", ">= 1.8.1"
   gem "hashie"
 end
 

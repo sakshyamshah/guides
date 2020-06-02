@@ -123,15 +123,17 @@ GEM
       sprockets (~> 2.12.1)
       sprockets-helpers (~> 1.1.0)
       sprockets-sass (~> 1.3.0)
-    mime-types (2.4.3)
-    mini_portile2 (2.0.0)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2020.0512)
+    mini_portile2 (2.4.0)
     minitest (5.8.3)
-    multi_json (1.11.2)
+    multi_json (1.14.1)
     neat (1.7.2)
       bourbon (>= 4.0)
       sass (>= 3.3)
-    nokogiri (1.6.7)
-      mini_portile2 (~> 2.0.0.rc2)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
     normalize-scss (4.0.3)
       sass (~> 3.3)
       support-for (~> 1.0)
@@ -142,18 +144,17 @@ GEM
     padrino-support (0.12.5)
       activesupport (>= 3.1)
     parallel (1.6.1)
-    poltergeist (1.8.1)
-      capybara (~> 2.1)
+    poltergeist (1.18.1)
+      capybara (>= 2.1, < 4)
       cliver (~> 0.3.1)
-      multi_json (~> 1.0)
       websocket-driver (>= 0.2.0)
     pry (0.9.12.6)
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
-    rack (1.6.4)
-    rack-test (0.6.3)
-      rack (>= 1.0)
+    rack (1.6.13)
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     rails-assets-js-md5 (1.1.1)
     rails-assets-moment (2.10.6)
     rake (10.4.2)
@@ -204,10 +205,10 @@ GEM
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     underscore-rails (1.8.3)
-    websocket-driver (0.6.3)
+    websocket-driver (0.7.2)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.2)
-    xpath (2.0.0)
+    websocket-extensions (0.1.5)
+    xpath (2.1.0)
       nokogiri (~> 1.3)
     yell (2.0.5)
 
@@ -230,7 +231,7 @@ DEPENDENCIES
   middleman-toc!
   neat
   normalize-scss
-  poltergeist
+  poltergeist (>= 1.8.1)
   pry
   rack
   rails-assets-js-md5!
@@ -244,4 +245,4 @@ DEPENDENCIES
   wdm (>= 0.1.0)
 
 BUNDLED WITH
-   1.15.4
+   1.17.3

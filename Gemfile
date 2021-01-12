@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'middleman-spellcheck',:git => "https://github.com/mwils/middleman-spellcheck.git", :branch => 'class'
-gem "redcarpet"
+gem "redcarpet", ">= 3.5.1"
 gem "activesupport", '~> 4.1.11'
 gem "highline"
 gem "rake"
